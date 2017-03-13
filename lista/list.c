@@ -39,7 +39,6 @@ struct Person *find_person(struct List *list, char *first_name, char *last_name)
     else return p->data;
 }
 
-//TODO check it once again
 void unpin(struct List *list, struct Node *node) {
     if (list == NULL || node == NULL) return;
     if (list->len == 1) {
@@ -69,6 +68,7 @@ void unpin(struct List *list, struct Node *node) {
     }
 
 }
+
 
 void delete_node_from_list(struct List *list, struct Node *node) {
     if (list == NULL || node == NULL) return;

@@ -1,45 +1,581 @@
-gtester
+tester
 ----------------------------------testing_with_optimization_lvl-o-----------------------------------------
 ----------------------------------static-----------------------------------------
 ----------------------LIST_BENCHMARK---------------------
 --------------------------start--------------------------
-real	 from last print= 0.000047, from start = 0.000047
+real	 from last print= 0.000029, from start = 0.000029
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 ----------------------list_creation----------------------
-real	 from last print= 0.000014, from start = 0.000061
+real	 from last print= 0.000010, from start = 0.000039
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 --------------------adding_one_element-------------------
-real	 from last print= 0.000003, from start = 0.000064
+real	 from last print= 0.000004, from start = 0.000043
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 -------------------adding_1000_elements------------------
-real	 from last print= 0.000786, from start = 0.000850
+real	 from last print= 0.000547, from start = 0.000590
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 ----------------------find_optimistic--------------------
-real	 from last print= 0.000004, from start = 0.000854
+real	 from last print= 0.000004, from start = 0.000594
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 ---------------------find_pesimistic---------------------
 ---------------------remove_pesimistic-------------------
-real	 from last print= 0.000034, from start = 0.000888
+real	 from last print= 0.000017, from start = 0.000611
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 ---------------------remove_optimistic-------------------
-real	 from last print= 0.000002, from start = 0.000890
+real	 from last print= 0.000002, from start = 0.000613
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 ------------------------sort_list------------------------
-real	 from last print= 0.004395, from start = 0.005285
+real	 from last print= 0.002247, from start = 0.002860
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+-------------------END_OF_LIST_BENCHMARK-----------------
+
+----------------------TREE_BENCHMARK---------------------
+--------------------------start--------------------------
+real	 from last print= 0.000002, from start = 0.000002
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+----------------------tree_creation----------------------
+real	 from last print= 0.000003, from start = 0.000005
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+--------------------adding_one_element-------------------
+real	 from last print= 0.000002, from start = 0.000007
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+-------------------adding_1000_elements------------------
+real	 from last print= 0.000828, from start = 0.000835
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+----------------------find_optimistic--------------------
+real	 from last print= 0.000003, from start = 0.000838
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+---------------------find_pesimistic---------------------
+---------------------remove_pesimistic-------------------
+real	 from last print= 0.000021, from start = 0.000859
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+---------------------remove_optimistic-------------------
+real	 from last print= 0.000014, from start = 0.000873
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+-----------------------rebuild_tree----------------------
+real	 from last print= 0.000213, from start = 0.001086
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+-------------------END_OF_TREE_BENCHMARK-----------------
+
+----------------------------------shared-----------------------------------------
+----------------------LIST_BENCHMARK---------------------
+--------------------------start--------------------------
+real	 from last print= 0.000029, from start = 0.000029
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+----------------------list_creation----------------------
+real	 from last print= 0.000009, from start = 0.000038
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+--------------------adding_one_element-------------------
+real	 from last print= 0.000004, from start = 0.000042
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+-------------------adding_1000_elements------------------
+real	 from last print= 0.000626, from start = 0.000668
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+----------------------find_optimistic--------------------
+real	 from last print= 0.000007, from start = 0.000675
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+---------------------find_pesimistic---------------------
+---------------------remove_pesimistic-------------------
+real	 from last print= 0.000026, from start = 0.000701
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+---------------------remove_optimistic-------------------
+real	 from last print= 0.000002, from start = 0.000703
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+------------------------sort_list------------------------
+real	 from last print= 0.002451, from start = 0.003154
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+-------------------END_OF_LIST_BENCHMARK-----------------
+
+----------------------TREE_BENCHMARK---------------------
+--------------------------start--------------------------
+real	 from last print= 0.000000, from start = 0.000000
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+----------------------tree_creation----------------------
+real	 from last print= 0.000002, from start = 0.000002
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+--------------------adding_one_element-------------------
+real	 from last print= 0.000003, from start = 0.000005
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+-------------------adding_1000_elements------------------
+real	 from last print= 0.000777, from start = 0.000782
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+----------------------find_optimistic--------------------
+real	 from last print= 0.000004, from start = 0.000786
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+---------------------find_pesimistic---------------------
+---------------------remove_pesimistic-------------------
+real	 from last print= 0.000021, from start = 0.000807
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+---------------------remove_optimistic-------------------
+real	 from last print= 0.000014, from start = 0.000821
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+-----------------------rebuild_tree----------------------
+real	 from last print= 0.000252, from start = 0.001073
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+-------------------END_OF_TREE_BENCHMARK-----------------
+
+----------------------------------dynamic----------------------------------------
+----------------------TREE_BENCHMARK---------------------
+--------------------------start--------------------------
+real	 from last print= 0.000007, from start = 0.000007
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+----------------------tree_creation----------------------
+real	 from last print= 0.000005, from start = 0.000012
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+--------------------adding_one_element-------------------
+real	 from last print= 0.000004, from start = 0.000016
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+-------------------adding_1000_elements------------------
+real	 from last print= 0.000719, from start = 0.000735
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+----------------------find_optimistic--------------------
+real	 from last print= 0.000002, from start = 0.000737
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+---------------------find_pesimistic---------------------
+---------------------remove_pesimistic-------------------
+real	 from last print= 0.000023, from start = 0.000760
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+---------------------remove_optimistic-------------------
+real	 from last print= 0.000002, from start = 0.000762
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+-----------------------rebuild_tree----------------------
+real	 from last print= 0.000209, from start = 0.000971
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+-------------------END_OF_TREE_BENCHMARK-----------------
+
+----------------------LIST_BENCHMARK---------------------
+--------------------------start--------------------------
+real	 from last print= 0.000000, from start = 0.000000
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+----------------------list_creation----------------------
+real	 from last print= 0.000002, from start = 0.000002
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+--------------------adding_one_element-------------------
+real	 from last print= 0.000001, from start = 0.000003
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+-------------------adding_1000_elements------------------
+real	 from last print= 0.000509, from start = 0.000512
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+----------------------find_optimistic--------------------
+real	 from last print= 0.000002, from start = 0.000514
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+---------------------find_pesimistic---------------------
+---------------------remove_pesimistic-------------------
+real	 from last print= 0.000017, from start = 0.000531
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+---------------------remove_optimistic-------------------
+real	 from last print= 0.000010, from start = 0.000541
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+------------------------sort_list------------------------
+real	 from last print= 0.002333, from start = 0.002874
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+-------------------END_OF_LIST_BENCHMARK-----------------
+
+----------------------------------testing_with_optimization_lvl-o2-----------------------------------------
+----------------------------------static-----------------------------------------
+----------------------LIST_BENCHMARK---------------------
+--------------------------start--------------------------
+real	 from last print= 0.000036, from start = 0.000036
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+----------------------list_creation----------------------
+real	 from last print= 0.000014, from start = 0.000050
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+--------------------adding_one_element-------------------
+real	 from last print= 0.000006, from start = 0.000056
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+-------------------adding_1000_elements------------------
+real	 from last print= 0.000680, from start = 0.000736
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+----------------------find_optimistic--------------------
+real	 from last print= 0.000007, from start = 0.000743
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+---------------------find_pesimistic---------------------
+---------------------remove_pesimistic-------------------
+real	 from last print= 0.000023, from start = 0.000766
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+---------------------remove_optimistic-------------------
+real	 from last print= 0.000003, from start = 0.000769
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+------------------------sort_list------------------------
+real	 from last print= 0.002956, from start = 0.003725
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+-------------------END_OF_LIST_BENCHMARK-----------------
+
+----------------------TREE_BENCHMARK---------------------
+--------------------------start--------------------------
+real	 from last print= 0.000001, from start = 0.000001
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+----------------------tree_creation----------------------
+real	 from last print= 0.000005, from start = 0.000006
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+--------------------adding_one_element-------------------
+real	 from last print= 0.000003, from start = 0.000009
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+-------------------adding_1000_elements------------------
+real	 from last print= 0.001362, from start = 0.001371
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+----------------------find_optimistic--------------------
+real	 from last print= 0.000005, from start = 0.001376
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+---------------------find_pesimistic---------------------
+---------------------remove_pesimistic-------------------
+real	 from last print= 0.000037, from start = 0.001413
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+---------------------remove_optimistic-------------------
+real	 from last print= 0.000019, from start = 0.001432
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+-----------------------rebuild_tree----------------------
+real	 from last print= 0.000306, from start = 0.001738
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+-------------------END_OF_TREE_BENCHMARK-----------------
+
+----------------------------------shared-----------------------------------------
+----------------------LIST_BENCHMARK---------------------
+--------------------------start--------------------------
+real	 from last print= 0.000029, from start = 0.000029
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+----------------------list_creation----------------------
+real	 from last print= 0.000010, from start = 0.000039
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+--------------------adding_one_element-------------------
+real	 from last print= 0.000004, from start = 0.000043
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+-------------------adding_1000_elements------------------
+real	 from last print= 0.000526, from start = 0.000569
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+----------------------find_optimistic--------------------
+real	 from last print= 0.000004, from start = 0.000573
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+---------------------find_pesimistic---------------------
+---------------------remove_pesimistic-------------------
+real	 from last print= 0.000019, from start = 0.000592
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+---------------------remove_optimistic-------------------
+real	 from last print= 0.000002, from start = 0.000594
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+------------------------sort_list------------------------
+real	 from last print= 0.002239, from start = 0.002833
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+-------------------END_OF_LIST_BENCHMARK-----------------
+
+----------------------TREE_BENCHMARK---------------------
+--------------------------start--------------------------
+real	 from last print= 0.000000, from start = 0.000000
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+----------------------tree_creation----------------------
+real	 from last print= 0.000002, from start = 0.000002
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+--------------------adding_one_element-------------------
+real	 from last print= 0.000002, from start = 0.000004
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+-------------------adding_1000_elements------------------
+real	 from last print= 0.000723, from start = 0.000727
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+----------------------find_optimistic--------------------
+real	 from last print= 0.000003, from start = 0.000730
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+---------------------find_pesimistic---------------------
+---------------------remove_pesimistic-------------------
+real	 from last print= 0.000021, from start = 0.000751
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+---------------------remove_optimistic-------------------
+real	 from last print= 0.000015, from start = 0.000766
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+-----------------------rebuild_tree----------------------
+real	 from last print= 0.000223, from start = 0.000989
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+-------------------END_OF_TREE_BENCHMARK-----------------
+
+----------------------------------dynamic----------------------------------------
+----------------------TREE_BENCHMARK---------------------
+--------------------------start--------------------------
+real	 from last print= 0.000009, from start = 0.000009
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+----------------------tree_creation----------------------
+real	 from last print= 0.000022, from start = 0.000031
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+--------------------adding_one_element-------------------
+real	 from last print= 0.000006, from start = 0.000037
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+-------------------adding_1000_elements------------------
+real	 from last print= 0.001025, from start = 0.001062
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+----------------------find_optimistic--------------------
+real	 from last print= 0.000004, from start = 0.001066
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+---------------------find_pesimistic---------------------
+---------------------remove_pesimistic-------------------
+real	 from last print= 0.000022, from start = 0.001088
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+---------------------remove_optimistic-------------------
+real	 from last print= 0.000002, from start = 0.001090
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+-----------------------rebuild_tree----------------------
+real	 from last print= 0.000218, from start = 0.001308
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+-------------------END_OF_TREE_BENCHMARK-----------------
+
+----------------------LIST_BENCHMARK---------------------
+--------------------------start--------------------------
+real	 from last print= 0.000001, from start = 0.000001
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+----------------------list_creation----------------------
+real	 from last print= 0.000001, from start = 0.000002
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+--------------------adding_one_element-------------------
+real	 from last print= 0.000002, from start = 0.000004
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+-------------------adding_1000_elements------------------
+real	 from last print= 0.000534, from start = 0.000538
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+----------------------find_optimistic--------------------
+real	 from last print= 0.000003, from start = 0.000541
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+---------------------find_pesimistic---------------------
+---------------------remove_pesimistic-------------------
+real	 from last print= 0.000017, from start = 0.000558
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+---------------------remove_optimistic-------------------
+real	 from last print= 0.000012, from start = 0.000570
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+------------------------sort_list------------------------
+real	 from last print= 0.002251, from start = 0.002821
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+-------------------END_OF_LIST_BENCHMARK-----------------
+
+----------------------------------testing_with_optimization_lvl-o3-----------------------------------------
+----------------------------------static-----------------------------------------
+----------------------LIST_BENCHMARK---------------------
+--------------------------start--------------------------
+real	 from last print= 0.000030, from start = 0.000030
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+----------------------list_creation----------------------
+real	 from last print= 0.000010, from start = 0.000040
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+--------------------adding_one_element-------------------
+real	 from last print= 0.000004, from start = 0.000044
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+-------------------adding_1000_elements------------------
+real	 from last print= 0.000541, from start = 0.000585
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+----------------------find_optimistic--------------------
+real	 from last print= 0.000004, from start = 0.000589
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+---------------------find_pesimistic---------------------
+---------------------remove_pesimistic-------------------
+real	 from last print= 0.000031, from start = 0.000620
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+---------------------remove_optimistic-------------------
+real	 from last print= 0.000002, from start = 0.000622
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+------------------------sort_list------------------------
+real	 from last print= 0.002296, from start = 0.002918
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
@@ -57,33 +593,33 @@ user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 --------------------adding_one_element-------------------
-real	 from last print= 0.000003, from start = 0.000007
+real	 from last print= 0.000002, from start = 0.000006
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 -------------------adding_1000_elements------------------
-real	 from last print= 0.001119, from start = 0.001126
+real	 from last print= 0.000770, from start = 0.000776
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 ----------------------find_optimistic--------------------
-real	 from last print= 0.000004, from start = 0.001130
+real	 from last print= 0.000003, from start = 0.000779
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 ---------------------find_pesimistic---------------------
 ---------------------remove_pesimistic-------------------
-real	 from last print= 0.000031, from start = 0.001161
+real	 from last print= 0.000020, from start = 0.000799
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 ---------------------remove_optimistic-------------------
-real	 from last print= 0.000031, from start = 0.001192
+real	 from last print= 0.000014, from start = 0.000813
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 -----------------------rebuild_tree----------------------
-real	 from last print= 0.000395, from start = 0.001587
+real	 from last print= 0.000227, from start = 0.001040
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
@@ -92,43 +628,43 @@ system	 from last print= 0.000000, from start = 0.000000
 ----------------------------------shared-----------------------------------------
 ----------------------LIST_BENCHMARK---------------------
 --------------------------start--------------------------
-real	 from last print= 0.000048, from start = 0.000048
+real	 from last print= 0.000029, from start = 0.000029
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 ----------------------list_creation----------------------
-real	 from last print= 0.000013, from start = 0.000061
+real	 from last print= 0.000009, from start = 0.000038
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 --------------------adding_one_element-------------------
-real	 from last print= 0.000004, from start = 0.000065
+real	 from last print= 0.000004, from start = 0.000042
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 -------------------adding_1000_elements------------------
-real	 from last print= 0.000750, from start = 0.000815
+real	 from last print= 0.000661, from start = 0.000703
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 ----------------------find_optimistic--------------------
-real	 from last print= 0.000005, from start = 0.000820
+real	 from last print= 0.000009, from start = 0.000712
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 ---------------------find_pesimistic---------------------
 ---------------------remove_pesimistic-------------------
-real	 from last print= 0.000028, from start = 0.000848
+real	 from last print= 0.000030, from start = 0.000742
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 ---------------------remove_optimistic-------------------
-real	 from last print= 0.000003, from start = 0.000851
+real	 from last print= 0.000003, from start = 0.000745
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 ------------------------sort_list------------------------
-real	 from last print= 0.003879, from start = 0.004730
+real	 from last print= 0.002477, from start = 0.003222
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
@@ -141,38 +677,38 @@ user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 ----------------------tree_creation----------------------
-real	 from last print= 0.000004, from start = 0.000005
+real	 from last print= 0.000002, from start = 0.000003
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 --------------------adding_one_element-------------------
-real	 from last print= 0.000003, from start = 0.000008
+real	 from last print= 0.000002, from start = 0.000005
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 -------------------adding_1000_elements------------------
-real	 from last print= 0.001081, from start = 0.001089
+real	 from last print= 0.000821, from start = 0.000826
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 ----------------------find_optimistic--------------------
-real	 from last print= 0.000005, from start = 0.001094
+real	 from last print= 0.000003, from start = 0.000829
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 ---------------------find_pesimistic---------------------
 ---------------------remove_pesimistic-------------------
-real	 from last print= 0.000031, from start = 0.001125
+real	 from last print= 0.000022, from start = 0.000851
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 ---------------------remove_optimistic-------------------
-real	 from last print= 0.000028, from start = 0.001153
+real	 from last print= 0.000019, from start = 0.000870
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 -----------------------rebuild_tree----------------------
-real	 from last print= 0.000336, from start = 0.001489
+real	 from last print= 0.000216, from start = 0.001086
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
@@ -181,43 +717,43 @@ system	 from last print= 0.000000, from start = 0.000000
 ----------------------------------dynamic----------------------------------------
 ----------------------TREE_BENCHMARK---------------------
 --------------------------start--------------------------
-real	 from last print= 0.000016, from start = 0.000016
+real	 from last print= 0.000005, from start = 0.000005
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 ----------------------tree_creation----------------------
-real	 from last print= 0.000017, from start = 0.000033
+real	 from last print= 0.000009, from start = 0.000014
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 --------------------adding_one_element-------------------
-real	 from last print= 0.000004, from start = 0.000037
+real	 from last print= 0.000003, from start = 0.000017
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 -------------------adding_1000_elements------------------
-real	 from last print= 0.001518, from start = 0.001555
+real	 from last print= 0.000742, from start = 0.000759
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 ----------------------find_optimistic--------------------
-real	 from last print= 0.000005, from start = 0.001560
+real	 from last print= 0.000003, from start = 0.000762
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 ---------------------find_pesimistic---------------------
 ---------------------remove_pesimistic-------------------
-real	 from last print= 0.000036, from start = 0.001596
+real	 from last print= 0.000020, from start = 0.000782
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 ---------------------remove_optimistic-------------------
-real	 from last print= 0.000003, from start = 0.001599
+real	 from last print= 0.000002, from start = 0.000784
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 -----------------------rebuild_tree----------------------
-real	 from last print= 0.000441, from start = 0.002040
+real	 from last print= 0.000223, from start = 0.001007
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
@@ -225,579 +761,43 @@ system	 from last print= 0.000000, from start = 0.000000
 
 ----------------------LIST_BENCHMARK---------------------
 --------------------------start--------------------------
+real	 from last print= 0.000000, from start = 0.000000
+user	 from last print= 0.000000, from start = 0.000000
+system	 from last print= 0.000000, from start = 0.000000
+----------------------**************---------------------
+----------------------list_creation----------------------
 real	 from last print= 0.000002, from start = 0.000002
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
-----------------------list_creation----------------------
-real	 from last print= 0.000004, from start = 0.000006
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
 --------------------adding_one_element-------------------
-real	 from last print= 0.000004, from start = 0.000010
+real	 from last print= 0.000002, from start = 0.000004
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 -------------------adding_1000_elements------------------
-real	 from last print= 0.001240, from start = 0.001250
+real	 from last print= 0.000521, from start = 0.000525
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 ----------------------find_optimistic--------------------
-real	 from last print= 0.000007, from start = 0.001257
+real	 from last print= 0.000002, from start = 0.000527
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 ---------------------find_pesimistic---------------------
 ---------------------remove_pesimistic-------------------
-real	 from last print= 0.000038, from start = 0.001295
+real	 from last print= 0.000017, from start = 0.000544
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 ---------------------remove_optimistic-------------------
-real	 from last print= 0.000032, from start = 0.001327
+real	 from last print= 0.000010, from start = 0.000554
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 ------------------------sort_list------------------------
-real	 from last print= 0.006332, from start = 0.007659
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
--------------------END_OF_LIST_BENCHMARK-----------------
-
-----------------------------------testing_with_optimization_lvl-o2-----------------------------------------
-----------------------------------static-----------------------------------------
-----------------------LIST_BENCHMARK---------------------
---------------------------start--------------------------
-real	 from last print= 0.000050, from start = 0.000050
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
-----------------------list_creation----------------------
-real	 from last print= 0.000014, from start = 0.000064
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
---------------------adding_one_element-------------------
-real	 from last print= 0.000003, from start = 0.000067
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
--------------------adding_1000_elements------------------
-real	 from last print= 0.000784, from start = 0.000851
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
-----------------------find_optimistic--------------------
-real	 from last print= 0.000004, from start = 0.000855
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
----------------------find_pesimistic---------------------
----------------------remove_pesimistic-------------------
-real	 from last print= 0.000033, from start = 0.000888
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
----------------------remove_optimistic-------------------
-real	 from last print= 0.000002, from start = 0.000890
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
-------------------------sort_list------------------------
-real	 from last print= 0.003554, from start = 0.004444
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
--------------------END_OF_LIST_BENCHMARK-----------------
-
-----------------------TREE_BENCHMARK---------------------
---------------------------start--------------------------
-real	 from last print= 0.000001, from start = 0.000001
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
-----------------------tree_creation----------------------
-real	 from last print= 0.000002, from start = 0.000003
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
---------------------adding_one_element-------------------
-real	 from last print= 0.000003, from start = 0.000006
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
--------------------adding_1000_elements------------------
-real	 from last print= 0.001081, from start = 0.001087
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
-----------------------find_optimistic--------------------
-real	 from last print= 0.000004, from start = 0.001091
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
----------------------find_pesimistic---------------------
----------------------remove_pesimistic-------------------
-real	 from last print= 0.000030, from start = 0.001121
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
----------------------remove_optimistic-------------------
-real	 from last print= 0.000027, from start = 0.001148
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
------------------------rebuild_tree----------------------
-real	 from last print= 0.000325, from start = 0.001473
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
--------------------END_OF_TREE_BENCHMARK-----------------
-
-----------------------------------shared-----------------------------------------
-----------------------LIST_BENCHMARK---------------------
---------------------------start--------------------------
-real	 from last print= 0.000060, from start = 0.000060
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
-----------------------list_creation----------------------
-real	 from last print= 0.000020, from start = 0.000080
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
---------------------adding_one_element-------------------
-real	 from last print= 0.000006, from start = 0.000086
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
--------------------adding_1000_elements------------------
-real	 from last print= 0.001171, from start = 0.001257
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
-----------------------find_optimistic--------------------
-real	 from last print= 0.000012, from start = 0.001269
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
----------------------find_pesimistic---------------------
----------------------remove_pesimistic-------------------
-real	 from last print= 0.000050, from start = 0.001319
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
----------------------remove_optimistic-------------------
-real	 from last print= 0.000005, from start = 0.001324
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
-------------------------sort_list------------------------
-real	 from last print= 0.005785, from start = 0.007109
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
--------------------END_OF_LIST_BENCHMARK-----------------
-
-----------------------TREE_BENCHMARK---------------------
---------------------------start--------------------------
-real	 from last print= 0.000001, from start = 0.000001
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
-----------------------tree_creation----------------------
-real	 from last print= 0.000004, from start = 0.000005
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
---------------------adding_one_element-------------------
-real	 from last print= 0.000004, from start = 0.000009
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
--------------------adding_1000_elements------------------
-real	 from last print= 0.001690, from start = 0.001699
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
-----------------------find_optimistic--------------------
-real	 from last print= 0.000009, from start = 0.001708
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
----------------------find_pesimistic---------------------
----------------------remove_pesimistic-------------------
-real	 from last print= 0.000052, from start = 0.001760
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
----------------------remove_optimistic-------------------
-real	 from last print= 0.000032, from start = 0.001792
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
------------------------rebuild_tree----------------------
-real	 from last print= 0.000394, from start = 0.002186
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
--------------------END_OF_TREE_BENCHMARK-----------------
-
-----------------------------------dynamic----------------------------------------
-----------------------TREE_BENCHMARK---------------------
---------------------------start--------------------------
-real	 from last print= 0.000016, from start = 0.000016
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
-----------------------tree_creation----------------------
-real	 from last print= 0.000014, from start = 0.000030
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
---------------------adding_one_element-------------------
-real	 from last print= 0.000005, from start = 0.000035
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
--------------------adding_1000_elements------------------
-real	 from last print= 0.001578, from start = 0.001613
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
-----------------------find_optimistic--------------------
-real	 from last print= 0.000008, from start = 0.001621
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
----------------------find_pesimistic---------------------
----------------------remove_pesimistic-------------------
-real	 from last print= 0.000044, from start = 0.001665
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
----------------------remove_optimistic-------------------
-real	 from last print= 0.000003, from start = 0.001668
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
------------------------rebuild_tree----------------------
-real	 from last print= 0.000402, from start = 0.002070
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
--------------------END_OF_TREE_BENCHMARK-----------------
-
-----------------------LIST_BENCHMARK---------------------
---------------------------start--------------------------
-real	 from last print= 0.000001, from start = 0.000001
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
-----------------------list_creation----------------------
-real	 from last print= 0.000002, from start = 0.000003
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
---------------------adding_one_element-------------------
-real	 from last print= 0.000003, from start = 0.000006
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
--------------------adding_1000_elements------------------
-real	 from last print= 0.001029, from start = 0.001035
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
-----------------------find_optimistic--------------------
-real	 from last print= 0.000006, from start = 0.001041
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
----------------------find_pesimistic---------------------
----------------------remove_pesimistic-------------------
-real	 from last print= 0.000042, from start = 0.001083
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
----------------------remove_optimistic-------------------
-real	 from last print= 0.000033, from start = 0.001116
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
-------------------------sort_list------------------------
-real	 from last print= 0.004253, from start = 0.005369
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
--------------------END_OF_LIST_BENCHMARK-----------------
-
-----------------------------------testing_with_optimization_lvl-o3-----------------------------------------
-----------------------------------static-----------------------------------------
-----------------------LIST_BENCHMARK---------------------
---------------------------start--------------------------
-real	 from last print= 0.000056, from start = 0.000056
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
-----------------------list_creation----------------------
-real	 from last print= 0.000021, from start = 0.000077
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
---------------------adding_one_element-------------------
-real	 from last print= 0.000003, from start = 0.000080
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
--------------------adding_1000_elements------------------
-real	 from last print= 0.000954, from start = 0.001034
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
-----------------------find_optimistic--------------------
-real	 from last print= 0.000007, from start = 0.001041
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
----------------------find_pesimistic---------------------
----------------------remove_pesimistic-------------------
-real	 from last print= 0.000045, from start = 0.001086
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
----------------------remove_optimistic-------------------
-real	 from last print= 0.000005, from start = 0.001091
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
-------------------------sort_list------------------------
-real	 from last print= 0.004731, from start = 0.005822
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
--------------------END_OF_LIST_BENCHMARK-----------------
-
-----------------------TREE_BENCHMARK---------------------
---------------------------start--------------------------
-real	 from last print= 0.000001, from start = 0.000001
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
-----------------------tree_creation----------------------
-real	 from last print= 0.000002, from start = 0.000003
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
---------------------adding_one_element-------------------
-real	 from last print= 0.000004, from start = 0.000007
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
--------------------adding_1000_elements------------------
-real	 from last print= 0.001181, from start = 0.001188
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
-----------------------find_optimistic--------------------
-real	 from last print= 0.000007, from start = 0.001195
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
----------------------find_pesimistic---------------------
----------------------remove_pesimistic-------------------
-real	 from last print= 0.000052, from start = 0.001247
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
----------------------remove_optimistic-------------------
-real	 from last print= 0.000032, from start = 0.001279
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
------------------------rebuild_tree----------------------
-real	 from last print= 0.000450, from start = 0.001729
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
--------------------END_OF_TREE_BENCHMARK-----------------
-
-----------------------------------shared-----------------------------------------
-----------------------LIST_BENCHMARK---------------------
---------------------------start--------------------------
-real	 from last print= 0.000061, from start = 0.000061
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
-----------------------list_creation----------------------
-real	 from last print= 0.000017, from start = 0.000078
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
---------------------adding_one_element-------------------
-real	 from last print= 0.000011, from start = 0.000089
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
--------------------adding_1000_elements------------------
-real	 from last print= 0.001087, from start = 0.001176
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
-----------------------find_optimistic--------------------
-real	 from last print= 0.000009, from start = 0.001185
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
----------------------find_pesimistic---------------------
----------------------remove_pesimistic-------------------
-real	 from last print= 0.000050, from start = 0.001235
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
----------------------remove_optimistic-------------------
-real	 from last print= 0.000005, from start = 0.001240
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
-------------------------sort_list------------------------
-real	 from last print= 0.005976, from start = 0.007216
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
--------------------END_OF_LIST_BENCHMARK-----------------
-
-----------------------TREE_BENCHMARK---------------------
---------------------------start--------------------------
-real	 from last print= 0.000001, from start = 0.000001
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
-----------------------tree_creation----------------------
-real	 from last print= 0.000006, from start = 0.000007
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
---------------------adding_one_element-------------------
-real	 from last print= 0.000005, from start = 0.000012
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
--------------------adding_1000_elements------------------
-real	 from last print= 0.001587, from start = 0.001599
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
-----------------------find_optimistic--------------------
-real	 from last print= 0.000009, from start = 0.001608
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
----------------------find_pesimistic---------------------
----------------------remove_pesimistic-------------------
-real	 from last print= 0.000033, from start = 0.001641
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
----------------------remove_optimistic-------------------
-real	 from last print= 0.000032, from start = 0.001673
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
------------------------rebuild_tree----------------------
-real	 from last print= 0.000407, from start = 0.002080
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
--------------------END_OF_TREE_BENCHMARK-----------------
-
-----------------------------------dynamic----------------------------------------
-----------------------TREE_BENCHMARK---------------------
---------------------------start--------------------------
-real	 from last print= 0.000015, from start = 0.000015
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
-----------------------tree_creation----------------------
-real	 from last print= 0.000018, from start = 0.000033
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
---------------------adding_one_element-------------------
-real	 from last print= 0.000006, from start = 0.000039
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
--------------------adding_1000_elements------------------
-real	 from last print= 0.001573, from start = 0.001612
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
-----------------------find_optimistic--------------------
-real	 from last print= 0.000008, from start = 0.001620
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
----------------------find_pesimistic---------------------
----------------------remove_pesimistic-------------------
-real	 from last print= 0.000046, from start = 0.001666
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
----------------------remove_optimistic-------------------
-real	 from last print= 0.000003, from start = 0.001669
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
------------------------rebuild_tree----------------------
-real	 from last print= 0.000429, from start = 0.002098
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
--------------------END_OF_TREE_BENCHMARK-----------------
-
-----------------------LIST_BENCHMARK---------------------
---------------------------start--------------------------
-real	 from last print= 0.000001, from start = 0.000001
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
-----------------------list_creation----------------------
-real	 from last print= 0.000004, from start = 0.000005
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
---------------------adding_one_element-------------------
-real	 from last print= 0.000005, from start = 0.000010
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
--------------------adding_1000_elements------------------
-real	 from last print= 0.001091, from start = 0.001101
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
-----------------------find_optimistic--------------------
-real	 from last print= 0.000007, from start = 0.001108
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
----------------------find_pesimistic---------------------
----------------------remove_pesimistic-------------------
-real	 from last print= 0.000042, from start = 0.001150
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
----------------------remove_optimistic-------------------
-real	 from last print= 0.000033, from start = 0.001183
-user	 from last print= 0.000000, from start = 0.000000
-system	 from last print= 0.000000, from start = 0.000000
-----------------------**************---------------------
-------------------------sort_list------------------------
-real	 from last print= 0.005148, from start = 0.006331
+real	 from last print= 0.002286, from start = 0.002840
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
@@ -807,43 +807,43 @@ system	 from last print= 0.000000, from start = 0.000000
 ----------------------------------static-----------------------------------------
 ----------------------LIST_BENCHMARK---------------------
 --------------------------start--------------------------
-real	 from last print= 0.000049, from start = 0.000049
+real	 from last print= 0.000029, from start = 0.000029
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 ----------------------list_creation----------------------
-real	 from last print= 0.000022, from start = 0.000071
+real	 from last print= 0.000020, from start = 0.000049
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 --------------------adding_one_element-------------------
-real	 from last print= 0.000005, from start = 0.000076
+real	 from last print= 0.000004, from start = 0.000053
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 -------------------adding_1000_elements------------------
-real	 from last print= 0.001061, from start = 0.001137
+real	 from last print= 0.000562, from start = 0.000615
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 ----------------------find_optimistic--------------------
-real	 from last print= 0.000006, from start = 0.001143
+real	 from last print= 0.000005, from start = 0.000620
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 ---------------------find_pesimistic---------------------
 ---------------------remove_pesimistic-------------------
-real	 from last print= 0.000032, from start = 0.001175
+real	 from last print= 0.000039, from start = 0.000659
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 ---------------------remove_optimistic-------------------
-real	 from last print= 0.000003, from start = 0.001178
+real	 from last print= 0.000002, from start = 0.000661
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 ------------------------sort_list------------------------
-real	 from last print= 0.004891, from start = 0.006069
+real	 from last print= 0.002354, from start = 0.003015
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
@@ -856,38 +856,38 @@ user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 ----------------------tree_creation----------------------
-real	 from last print= 0.000004, from start = 0.000005
+real	 from last print= 0.000002, from start = 0.000003
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 --------------------adding_one_element-------------------
-real	 from last print= 0.000004, from start = 0.000009
+real	 from last print= 0.000002, from start = 0.000005
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 -------------------adding_1000_elements------------------
-real	 from last print= 0.001644, from start = 0.001653
+real	 from last print= 0.000752, from start = 0.000757
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 ----------------------find_optimistic--------------------
-real	 from last print= 0.000007, from start = 0.001660
+real	 from last print= 0.000003, from start = 0.000760
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 ---------------------find_pesimistic---------------------
 ---------------------remove_pesimistic-------------------
-real	 from last print= 0.000033, from start = 0.001693
+real	 from last print= 0.000020, from start = 0.000780
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 ---------------------remove_optimistic-------------------
-real	 from last print= 0.000031, from start = 0.001724
+real	 from last print= 0.000016, from start = 0.000796
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 -----------------------rebuild_tree----------------------
-real	 from last print= 0.000394, from start = 0.002118
+real	 from last print= 0.000219, from start = 0.001015
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
@@ -896,43 +896,43 @@ system	 from last print= 0.000000, from start = 0.000000
 ----------------------------------shared-----------------------------------------
 ----------------------LIST_BENCHMARK---------------------
 --------------------------start--------------------------
-real	 from last print= 0.000060, from start = 0.000060
+real	 from last print= 0.000029, from start = 0.000029
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 ----------------------list_creation----------------------
-real	 from last print= 0.000020, from start = 0.000080
+real	 from last print= 0.000011, from start = 0.000040
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 --------------------adding_one_element-------------------
-real	 from last print= 0.000007, from start = 0.000087
+real	 from last print= 0.000004, from start = 0.000044
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 -------------------adding_1000_elements------------------
-real	 from last print= 0.000934, from start = 0.001021
+real	 from last print= 0.000515, from start = 0.000559
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 ----------------------find_optimistic--------------------
-real	 from last print= 0.000008, from start = 0.001029
+real	 from last print= 0.000004, from start = 0.000563
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 ---------------------find_pesimistic---------------------
 ---------------------remove_pesimistic-------------------
-real	 from last print= 0.000034, from start = 0.001063
+real	 from last print= 0.000019, from start = 0.000582
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 ---------------------remove_optimistic-------------------
-real	 from last print= 0.000004, from start = 0.001067
+real	 from last print= 0.000002, from start = 0.000584
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 ------------------------sort_list------------------------
-real	 from last print= 0.004800, from start = 0.005867
+real	 from last print= 0.002210, from start = 0.002794
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
@@ -940,43 +940,43 @@ system	 from last print= 0.000000, from start = 0.000000
 
 ----------------------TREE_BENCHMARK---------------------
 --------------------------start--------------------------
-real	 from last print= 0.000000, from start = 0.000000
+real	 from last print= 0.000001, from start = 0.000001
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 ----------------------tree_creation----------------------
-real	 from last print= 0.000004, from start = 0.000004
+real	 from last print= 0.000002, from start = 0.000003
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 --------------------adding_one_element-------------------
-real	 from last print= 0.000004, from start = 0.000008
+real	 from last print= 0.000002, from start = 0.000005
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 -------------------adding_1000_elements------------------
-real	 from last print= 0.001418, from start = 0.001426
+real	 from last print= 0.000702, from start = 0.000707
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 ----------------------find_optimistic--------------------
-real	 from last print= 0.000009, from start = 0.001435
+real	 from last print= 0.000002, from start = 0.000709
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 ---------------------find_pesimistic---------------------
 ---------------------remove_pesimistic-------------------
-real	 from last print= 0.000045, from start = 0.001480
+real	 from last print= 0.000020, from start = 0.000729
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 ---------------------remove_optimistic-------------------
-real	 from last print= 0.000028, from start = 0.001508
+real	 from last print= 0.000012, from start = 0.000741
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 -----------------------rebuild_tree----------------------
-real	 from last print= 0.000425, from start = 0.001933
+real	 from last print= 0.000213, from start = 0.000954
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
@@ -985,43 +985,43 @@ system	 from last print= 0.000000, from start = 0.000000
 ----------------------------------dynamic----------------------------------------
 ----------------------TREE_BENCHMARK---------------------
 --------------------------start--------------------------
-real	 from last print= 0.000017, from start = 0.000017
+real	 from last print= 0.000005, from start = 0.000005
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 ----------------------tree_creation----------------------
-real	 from last print= 0.000016, from start = 0.000033
+real	 from last print= 0.000009, from start = 0.000014
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 --------------------adding_one_element-------------------
-real	 from last print= 0.000012, from start = 0.000045
+real	 from last print= 0.000004, from start = 0.000018
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 -------------------adding_1000_elements------------------
-real	 from last print= 0.001660, from start = 0.001705
+real	 from last print= 0.000720, from start = 0.000738
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 ----------------------find_optimistic--------------------
-real	 from last print= 0.000006, from start = 0.001711
+real	 from last print= 0.000003, from start = 0.000741
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 ---------------------find_pesimistic---------------------
 ---------------------remove_pesimistic-------------------
-real	 from last print= 0.000037, from start = 0.001748
+real	 from last print= 0.000022, from start = 0.000763
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 ---------------------remove_optimistic-------------------
-real	 from last print= 0.000004, from start = 0.001752
+real	 from last print= 0.000001, from start = 0.000764
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 -----------------------rebuild_tree----------------------
-real	 from last print= 0.000442, from start = 0.002194
+real	 from last print= 0.000217, from start = 0.000981
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
@@ -1029,45 +1029,46 @@ system	 from last print= 0.000000, from start = 0.000000
 
 ----------------------LIST_BENCHMARK---------------------
 --------------------------start--------------------------
-real	 from last print= 0.000002, from start = 0.000002
+real	 from last print= 0.000001, from start = 0.000001
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 ----------------------list_creation----------------------
-real	 from last print= 0.000004, from start = 0.000006
+real	 from last print= 0.000001, from start = 0.000002
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 --------------------adding_one_element-------------------
-real	 from last print= 0.000004, from start = 0.000010
+real	 from last print= 0.000002, from start = 0.000004
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 -------------------adding_1000_elements------------------
-real	 from last print= 0.000980, from start = 0.000990
+real	 from last print= 0.000510, from start = 0.000514
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 ----------------------find_optimistic--------------------
-real	 from last print= 0.000006, from start = 0.000996
+real	 from last print= 0.000003, from start = 0.000517
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 ---------------------find_pesimistic---------------------
 ---------------------remove_pesimistic-------------------
-real	 from last print= 0.000036, from start = 0.001032
+real	 from last print= 0.000016, from start = 0.000533
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 ---------------------remove_optimistic-------------------
-real	 from last print= 0.000028, from start = 0.001060
+real	 from last print= 0.000010, from start = 0.000543
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 ------------------------sort_list------------------------
-real	 from last print= 0.005179, from start = 0.006239
+real	 from last print= 0.003015, from start = 0.003558
 user	 from last print= 0.000000, from start = 0.000000
 system	 from last print= 0.000000, from start = 0.000000
 ----------------------**************---------------------
 -------------------END_OF_LIST_BENCHMARK-----------------
 
+-----------------------------------------------END_OF_BENCHMARK--------------------------------------------

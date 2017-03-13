@@ -1,0 +1,34 @@
+W pliku main.c dodałem następujące linie :
+
+        struct Person* p = NULL;
+        kill_person(p);
+
+W wyniku czego odwoływałem się do NULLA przez co program zrzucał cora
+
+Nastepnie w konsoli wpisałem
+    gdb tester_static core
+
+Otrzymałem widok bledu
+    Program received signal SIGSEGV, Segmentation fault.
+    0x00000000004019b0 in kill_person (person=0x0) at /home/bartek/Dropbox/Studia/SYSOPY/lista/person.c:74
+    74	    free(person->first_name);
+
+Wypisalem zmienna person poleceniem
+    print person
+Otrzymałem taką informacje
+    $1 = (struct Person *) 0x0
+Nastepnie wylistowalem kod poleceniem
+    l
+Otrzymalem:
+    69	    newPerson->adress = adress2;
+    70	    return newPerson;
+    71	};
+    72
+    73	void kill_person(struct Person *person) {
+    74	    free(person->first_name);
+    75	    free(person->last_name);
+    76	    free(person->adress);
+    77	    free(person->email);
+    78	    free(person->birth_date);
+
+Wiec wszytko bylo jasne, odwolywalem sie do nulla !!

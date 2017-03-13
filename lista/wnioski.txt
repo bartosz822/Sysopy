@@ -1,0 +1,71 @@
+
+-o
+
+real	0m0,006s
+user	0m0,003s
+sys	0m0,000s
+
+
+real	0m0,006s
+user	0m0,003s
+sys	0m0,000s
+
+
+real	0m0,006s
+user	0m0,003s
+sys	0m0,000s
+
+-o2
+
+real	0m0,005s
+user	0m0,003s
+sys	0m0,000s
+
+
+real	0m0,005s
+user	0m0,003s
+sys	0m0,000s
+
+
+real	0m0,005s
+user	0m0,003s
+sys	0m0,000s
+
+-o3
+
+real	0m0,004s
+user	0m0,003s
+sys	0m0,000s
+
+
+real	0m0,005s
+user	0m0,003s
+sys	0m0,000s
+
+
+real	0m0,006s
+user	0m0,003s
+sys	0m0,000s
+
+-os
+
+real	0m0,005s
+user	0m0,003s
+sys	0m0,000s
+
+
+real	0m0,004s
+user	0m0,003s
+sys	0m0,000s
+
+
+real	0m0,005s
+user	0m0,003s
+sys	0m0,000s
+
+Najszybsza wersja -o3 i statyczne biblioteki
+Najwolniejsza wersja -o i biblioteki ladowane dynamicznie
+
+static > shared > dynamic
+
+o3 >= o2 >= os > o // niewielnie różnice

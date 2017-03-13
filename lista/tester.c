@@ -110,6 +110,7 @@ void tree_benchmark() {
     printf("-----------------------rebuild_tree----------------------\n");
     rebuild_tree(tree, last_name_comparator);
     print_times();
+    delete_tree(tree);
     printf("-------------------END_OF_TREE_BENCHMARK-----------------\n\n");
 }
 
@@ -142,6 +143,7 @@ void list_benchmark() {
     printf("------------------------sort_list------------------------\n");
     sort_by_last_name(list);
     print_times();
+    delete_list(list);
     printf("-------------------END_OF_LIST_BENCHMARK-----------------\n\n");
 }
 
