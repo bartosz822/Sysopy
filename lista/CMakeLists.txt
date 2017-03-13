@@ -5,7 +5,7 @@ set(CMAKE_C_STANDARD 11)
 option(SHARED "Compile shared option" OFF)
 option(DYNAMIC "Compile dynamic version" OFF)
 option(ALL "Compile all options" OFF)
-option(OPTIMIZATION "Optimization level" )
+option(OPTIMIZATION "Optimization level" -o)
 
 
 set(LIBS list.c list.h person.c person.h tree.c tree.h tester.c tester.h)
