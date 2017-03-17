@@ -1,0 +1,42 @@
+---------------------Begining-of-the-test---------------------
+---------------------1000_records_4_bytes---------------------
+./cw02 lib sort test1 1000 4  0,22s user 0,51s system 99% cpu 0,731 total
+./cw02 lib shuffle test1 1000 4  0,00s user 0,00s system 0% cpu 0,003 total
+./cw02 sys sort test1_2 1000 4  0,10s user 0,70s system 99% cpu 0,809 total
+./cw02 sys shuffle test1_2 1000 4  0,00s user 0,00s system 0% cpu 0,003 total
+---------------------10000_records_4_bytes---------------------
+./cw02 lib sort test1 10000 4  20,70s user 51,96s system 99% cpu 1:12,72 total
+./cw02 lib shuffle test1 10000 4  0,00s user 0,02s system 92% cpu 0,029 total
+./cw02 sys sort test1_2 10000 4  11,16s user 66,95s system 99% cpu 1:18,26 total
+./cw02 sys shuffle test1_2 10000 4  0,01s user 0,01s system 84% cpu 0,020 total
+---------------------1000_records_512_bytes---------------------
+./cw02 lib sort test1 1000 512  0,23s user 0,54s system 99% cpu 0,778 total
+./cw02 lib shuffle test1 1000 512  0,00s user 0,00s system 91% cpu 0,004 total
+./cw02 sys sort test1_2 1000 512  0,10s user 0,67s system 99% cpu 0,778 total
+./cw02 sys shuffle test1_2 1000 512  0,00s user 0,00s system 0% cpu 0,003 total
+---------------------10000_records_4_bytes---------------------
+./cw02 lib sort test1 10000 512  23,53s user 56,64s system 99% cpu 1:20,24 total
+./cw02 lib shuffle test1 10000 512  0,00s user 0,03s system 94% cpu 0,039 total
+./cw02 sys sort test1_2 10000 512  12,39s user 67,60s system 99% cpu 1:20,00 total
+./cw02 sys shuffle test1_2 10000 512  0,00s user 0,02s system 89% cpu 0,022 total
+---------------------1000_records_4096_bytes---------------------
+./cw02 lib sort test1 1000 4096  0,22s user 0,84s system 99% cpu 1,064 total
+./cw02 lib shuffle test1 1000 4096  0,00s user 0,00s system 91% cpu 0,004 total
+./cw02 sys sort test1_2 1000 4096  0,18s user 0,76s system 99% cpu 0,939 total
+./cw02 sys shuffle test1_2 1000 4096  0,00s user 0,00s system 0% cpu 0,003 total
+---------------------10000_records_4096_bytes---------------------
+./cw02 lib sort test1 10000 4096  25,64s user 92,39s system 99% cpu 1:58,50 total
+./cw02 lib shuffle test1 10000 4096  0,01s user 0,02s system 97% cpu 0,034 total
+./cw02 sys sort test1_2 10000 4096  13,73s user 91,63s system 99% cpu 1:45,72 total
+./cw02 sys shuffle test1_2 10000 4096  0,00s user 0,04s system 97% cpu 0,041 total
+---------------------1000_records_8192_bytes---------------------
+./cw02 lib sort test1 1000 8192  0,23s user 1,35s system 99% cpu 1,585 total
+./cw02 lib shuffle test1 1000 8192  0,00s user 0,00s system 60% cpu 0,005 total
+./cw02 sys sort test1_2 1000 8192  0,12s user 1,37s system 99% cpu 1,498 total
+./cw02 sys shuffle test1_2 1000 8192  0,00s user 0,00s system 55% cpu 0,006 total
+---------------------10000_records_8192_bytes---------------------
+./cw02 lib sort test1 10000 8192  23,41s user 143,51s system 99% cpu 2:48,60 total
+./cw02 lib shuffle test1 10000 8192  0,00s user 0,05s system 99% cpu 0,057 total
+./cw02 sys sort test1_2 10000 8192  13,94s user 140,60s system 99% cpu 2:35,77 total
+./cw02 sys shuffle test1_2 10000 8192  0,00s user 0,05s system 96% cpu 0,059 total
+---------------------END_OF_TEST---------------------
