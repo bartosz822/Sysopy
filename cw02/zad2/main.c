@@ -1,4 +1,5 @@
 #define _GNU_SOURCE 
+#define _USE_BSD
 #include <limits.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -54,17 +55,19 @@ void search(char *current_path, int size) {
         strcpy(new_path, current_path);
         if (current_path[strlen(current_path) - 1] != '/') strcat(new_path, "/");
         strcat(new_path, dr->d_name);
-
-        if (dr->d_type == DT_DIR && strcmp(dr->d_name, "..") != 0 && strcmp(dr->d_name, ".") != 0) {
+	if (dr->d_type == DT_DIR && strcmp(dr->d_name, "..") != 0 && strcmp(dr->d_name, ".") != 0) {
             search(new_path, size);
-        } else if (dr->d_type == DT_REG || DT_UNKNOWN) {
+        } else  {
             int result = lstat(new_path, &file);
             if (result < 0) error();
-            if (S_ISDIR(file.st_mode)) {
-                search(current_path, size);
+            if (S_ISDIR(file.st_mode) 
+		&& strcmp(dr->d_name, "..") != 0 
+		&& strcmp(dr->d_name, ".") != 0) {
+                search(new_path, size);
             } else if (S_ISREG(file.st_mode) && file.st_size <= size) {
-                print_info(&file, new_path);
+		 print_info(&file, new_path);
             }
+
         }
         free(new_path);
     }
@@ -84,6 +87,7 @@ int main(int argc, char *argv[]) {
     size = atoi(argv[2]);
 
     realpath(argv[1], root);
+   
     search(root, size);
 
     return 0;
