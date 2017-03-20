@@ -23,7 +23,7 @@ void generate(char* file_name, size_t records, size_t bytes_per_record){
     write_file = fopen(file_name,"w");
 
     FILE * read_file;
-    read_file = fopen("/dev/random", "r");
+    read_file = fopen("/dev/urandom", "r");
 
 
     if (write_file == NULL) {

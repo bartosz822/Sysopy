@@ -1,6 +1,5 @@
 cmake_minimum_required(VERSION 2.8)
-project(zad2)
-
+project(zad3)
 
 macro(use_c11)
     if (CMAKE_VERSION VERSION_LESS "3.1")
@@ -12,8 +11,10 @@ macro(use_c11)
     endif ()
 endmacro(use_c11)
 
+
 use_c11()
 
 set(SOURCE_FILES main.c)
-add_executable(zad2 ${SOURCE_FILES})
-add_executable(zad2_nftw main_nftw.c)
+add_executable(zad3 ${SOURCE_FILES})
+
+

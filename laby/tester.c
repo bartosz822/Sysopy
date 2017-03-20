@@ -5,11 +5,8 @@
 
 
 int main(int argc, char* argv []){
-  if(argc < 2){
-    printf("%s\n", "bad arguments" );
-    exit(2);
-  }
-  char* file_name = argv[1];
+
+
   printf("%s\n", "co chcesz zrobić ?\nwpisz a - założenie locka do odczytu \nb - założenie locka do zapisu ");
   char tmp = getchar();
   printf("%c\n", tmp );
