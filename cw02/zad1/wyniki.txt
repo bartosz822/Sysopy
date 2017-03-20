@@ -1,138 +1,138 @@
 ---------------------Begining-of-the-test---------------------
 ---------------------1000_records_4_bytes---------------------
 
-real	0m1.566s
-user	0m0.408s
-sys	0m1.157s
+real	0m1.457s
+user	0m0.383s
+sys	0m1.073s
 
-real	0m0.006s
-user	0m0.000s
+real	0m0.007s
+user	0m0.001s
 sys	0m0.006s
 
-real	0m1.405s
-user	0m0.209s
-sys	0m1.196s
+real	0m1.481s
+user	0m0.238s
+sys	0m1.243s
 
 real	0m0.005s
+user	0m0.002s
+sys	0m0.003s
+---------------------3000_records_4_bytes---------------------
+
+real	0m13.646s
+user	0m3.434s
+sys	0m10.209s
+
+real	0m0.020s
+user	0m0.004s
+sys	0m0.016s
+
+real	0m13.127s
+user	0m1.958s
+sys	0m11.167s
+
+real	0m0.011s
 user	0m0.000s
-sys	0m0.006s
----------------------10000_records_4_bytes---------------------
-
-real	0m13.520s
-user	0m3.362s
-sys	0m10.157s
-
-real	0m0.023s
-user	0m0.003s
-sys	0m0.020s
-
-real	0m13.822s
-user	0m1.976s
-sys	0m11.842s
-
-real	0m0.012s
-user	0m0.001s
 sys	0m0.011s
 ---------------------1000_records_512_bytes---------------------
 
-real	0m1.849s
-user	0m0.509s
-sys	0m1.338s
-
-real	0m0.010s
-user	0m0.004s
-sys	0m0.006s
-
-real	0m1.799s
-user	0m0.264s
-sys	0m1.535s
-
-real	0m0.006s
-user	0m0.000s
-sys	0m0.006s
----------------------3000_records_512_bytes---------------------
-
-real	0m18.667s
-user	0m4.474s
-sys	0m14.189s
-
-real	0m0.025s
-user	0m0.004s
-sys	0m0.021s
-
-real	0m16.265s
-user	0m2.294s
-sys	0m13.966s
-
-real	0m0.017s
-user	0m0.001s
-sys	0m0.016s
----------------------1000_records_4096_bytes---------------------
-
-real	0m3.352s
+real	0m1.718s
 user	0m0.466s
-sys	0m2.885s
-
-real	0m0.010s
-user	0m0.000s
-sys	0m0.010s
-
-real	0m2.432s
-user	0m0.248s
-sys	0m2.184s
+sys	0m1.252s
 
 real	0m0.011s
-user	0m0.001s
+user	0m0.002s
+sys	0m0.009s
+
+real	0m1.530s
+user	0m0.246s
+sys	0m1.284s
+
+real	0m0.006s
+user	0m0.002s
+sys	0m0.004s
+---------------------3000_records_512_bytes---------------------
+
+real	0m15.806s
+user	0m4.475s
+sys	0m11.329s
+
+real	0m0.028s
+user	0m0.005s
+sys	0m0.023s
+
+real	0m14.038s
+user	0m2.301s
+sys	0m11.735s
+
+real	0m0.015s
+user	0m0.003s
+sys	0m0.012s
+---------------------1000_records_4096_bytes---------------------
+
+real	0m2.921s
+user	0m0.522s
+sys	0m2.399s
+
+real	0m0.011s
+user	0m0.000s
+sys	0m0.011s
+
+real	0m2.313s
+user	0m0.272s
+sys	0m2.041s
+
+real	0m0.010s
+user	0m0.000s
 sys	0m0.010s
 ---------------------3000_records_4096_bytes---------------------
 
-real	0m27.224s
-user	0m4.118s
-sys	0m23.103s
+real	0m28.169s
+user	0m4.197s
+sys	0m23.966s
 
-real	0m0.031s
-user	0m0.002s
-sys	0m0.029s
+real	0m0.028s
+user	0m0.006s
+sys	0m0.022s
 
-real	0m22.356s
-user	0m2.284s
-sys	0m20.070s
+real	0m22.266s
+user	0m2.359s
+sys	0m19.905s
 
-real	0m0.031s
-user	0m0.000s
-sys	0m0.031s
+real	0m0.025s
+user	0m0.001s
+sys	0m0.023s
 ---------------------1000_records_8192_bytes---------------------
 
-real	0m4.226s
-user	0m0.485s
-sys	0m3.741s
+real	0m4.314s
+user	0m0.483s
+sys	0m3.830s
 
-real	0m0.018s
+real	0m0.016s
 user	0m0.001s
-sys	0m0.017s
+sys	0m0.015s
 
-real	0m3.821s
-user	0m0.299s
-sys	0m3.522s
+real	0m3.775s
+user	0m0.292s
+sys	0m3.482s
 
-real	0m0.018s
-user	0m0.000s
-sys	0m0.018s
+real	0m0.015s
+user	0m0.001s
+sys	0m0.014s
 ---------------------3000_records_8192_bytes---------------------
 
-real	0m38.854s
-user	0m4.338s
-sys	0m34.512s
+real	0m36.214s
+user	0m4.064s
+sys	0m32.144s
 
-real	0m0.050s
-user	0m0.003s
-sys	0m0.048s
+real	0m0.044s
+user	0m0.005s
+sys	0m0.039s
 
-real	0m34.486s
-user	0m2.357s
-sys	0m32.126s
+real	0m33.074s
+user	0m2.472s
+sys	0m30.597s
 
-real	0m0.046s
-user	0m0.003s
-sys	0m0.043s
+real	0m0.045s
+user	0m0.005s
+sys	0m0.040s
 ---------------------END_OF_TEST---------------------
