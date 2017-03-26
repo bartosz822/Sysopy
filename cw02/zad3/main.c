@@ -1,10 +1,12 @@
-#define GNU_SOURCE
+#define _GNU_SOURCE
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <fcntl.h>
 #include <zconf.h>
+#include <string.h>
 
+int mode=0;
 
 void create_read_lock(int desc) {
 
@@ -25,8 +27,12 @@ void create_read_lock(int desc) {
     reader.l_start=offset;
     reader.l_len=1;
     reader.l_pid=getpid();
-
-    int res = fcntl(desc, F_SETLK, &reader);
+    int res;
+    if(mode == 1){
+       res = fcntl(desc, F_SETLKW, &reader);
+    } else {
+       res = fcntl(desc, F_SETLK, &reader);
+    }
     if(res == 0) printf("Udało się założyć rygiel\n");
     else printf("Nie udało się założyć rygla\n");
 
@@ -51,8 +57,12 @@ void create_write_lock(int desc){
     writer.l_start=offset;
     writer.l_len=1;
     writer.l_pid=getpid();
-
-    int res = fcntl(desc, F_SETLK, &writer);
+    int res;
+    if(mode == 1){
+       res = fcntl(desc, F_SETLKW, &writer);
+    } else {
+       res = fcntl(desc, F_SETLK, &writer);
+    }   
     if(res == 0) printf("Udało się założyć rygiel\n");
     else printf("Nie udało się założyć rygla\n");
 
@@ -181,6 +191,11 @@ int main(int argc, char* argv[]) {
         printf("%s\n", "bad arguments" );
         exit(2);
     }
+
+    if(argc >=3 && strcmp(argv[2],"-w8")==0){
+	mode = 1;
+    }
+
 
     char* file_name = argv[1];
     int desc = open(file_name, O_RDWR);
