@@ -64,7 +64,7 @@ void execute(char *command) {
 void print_usage() {
     struct rusage childusage;
     getrusage(RUSAGE_CHILDREN, &childusage);
-    printf("user cpu : %ld us || system cpu : %ld us || maxrss : %ld bytes|| ixrss : %ld bytes || idrss : %ld bytes || isrss : %ld bytes",
+    printf("user cpu : %ld us || system cpu : %ld us || maxrss : %ld bytes|| ixrss : %ld bytes || idrss : %ld bytes || isrss : %ld bytes \nSS",
            childusage.ru_utime.tv_usec, childusage.ru_stime.tv_usec, childusage.ru_maxrss, childusage.ru_ixrss,
            childusage.ru_idrss, childusage.ru_idrss);
 }
