@@ -39,7 +39,7 @@ void execute(char *command) {
         }
     }
 
-    free(command);
+    free(argv);
 }
 
 void parse_line(char *line) {

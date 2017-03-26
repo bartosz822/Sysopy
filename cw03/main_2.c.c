@@ -35,7 +35,6 @@ void execute(char *command) {
     while (i < 5 && (argv[i] = strtok(NULL, " ")) != NULL)(i++);
     if (argv[i - 1][strlen(argv[i - 1]) - 1] == '\n') argv[i - 1][strlen(argv[i - 1]) - 1] = '\0';
     argv[i] = NULL;
-    pid_t parent = getpid();
     pid_t forkpid = fork();
     if (forkpid == 0) {
         struct rlimit limits_cpu;
@@ -59,7 +58,7 @@ void execute(char *command) {
         print_usage();
     }
 
-    free(command);
+    free(argv);
 }
 
 void print_usage() {
