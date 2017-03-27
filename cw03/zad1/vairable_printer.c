@@ -6,7 +6,7 @@
 
 int main(int argc, char** argv){
     if(argc != 2 ){
-        printf("Bad arguments");
+        printf("Bad arguments\n");
         exit(2);
     }
     char* variable_name = argv[1];
@@ -14,7 +14,7 @@ int main(int argc, char** argv){
     if(value != NULL){
         printf("%s \n", value);
     } else {
-        printf("nie ma takiej zmiennej");
+        printf("nie ma takiej zmiennej\n");
     }
     exit(0);
 }

@@ -11,8 +11,8 @@
 #include <sys/wait.h>
 #include <sys/resource.h>
 
-int time;
-int memory;
+long time;
+long memory;
 
 void print_usage();
 
@@ -64,7 +64,7 @@ void execute(char *command) {
 void print_usage() {
     struct rusage childusage;
     getrusage(RUSAGE_CHILDREN, &childusage);
-    printf("user cpu : %ld us || system cpu : %ld us || maxrss : %ld bytes|| ixrss : %ld bytes || idrss : %ld bytes || isrss : %ld bytes \nSS",
+    printf("user cpu : %ld us || system cpu : %ld us || maxrss : %ld bytes|| ixrss : %ld bytes || idrss : %ld bytes || isrss : %ld bytes \n",
            childusage.ru_utime.tv_usec, childusage.ru_stime.tv_usec, childusage.ru_maxrss, childusage.ru_ixrss,
            childusage.ru_idrss, childusage.ru_idrss);
 }
@@ -114,8 +114,8 @@ int main(int argc, char *argv[]) {
         printf("Bad arguments");
         exit(EXIT_FAILURE);
     }
-    time = atoi(argv[2]);
-    memory = atoi(argv[3]);
+    time = atol(argv[2]);
+    memory = atol(argv[3]);
     char *file_path = argv[1];
     read_file(file_path);
 

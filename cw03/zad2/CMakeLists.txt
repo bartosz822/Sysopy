@@ -14,7 +14,6 @@ endmacro(use_c11)
 use_c11()
 
 set(SOURCE_FILES main.c)
-add_executable(cw03 ${SOURCE_FILES})
 add_executable(vp vairable_printer.c)
-add_executable(zad2 main_2.c.c)
+add_executable(cw03 main_2.c.c)
 add_executable(rh resource_hungry.c)
