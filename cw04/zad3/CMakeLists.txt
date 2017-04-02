@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.6)
+project(zad3)
+
+set(CMAKE_C_STANDARD 11)
+
+set(SOURCE_FILES main.c)
+add_executable(zad3 ${SOURCE_FILES})
+add_executable(zad3_2 main_with_star.c)
