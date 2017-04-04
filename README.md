@@ -1,3 +1,3 @@
 # Sysopy
 
-### programs for operating system course on AGH UST
+### programs for operating systems course on AGH UST
